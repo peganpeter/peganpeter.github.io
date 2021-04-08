@@ -1,0 +1,119 @@
+body {
+    margin: 100px 0 0 0;
+    background: url(./assets/hatter2.jpg);
+    background-size: certain;
+    color: #333333; 
+    font-family: 'Courier Prime', monospace;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-left:10%;
+    padding-right: 10%;
+    text-align: center;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1, h2, h3 {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-size: 55px;
+    font-weight: 700;
+}
+
+h3{
+color: #ff0099;
+margin: 0px;
+padding: 0px;
+}
+
+article p {
+font-size: 24px;
+}
+nav {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    }
+
+nav div{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    float: right;
+}
+
+nav a {
+    display: inline-block;
+    padding: 20px;
+    text-decoration: none;
+    color: #ff0099;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: background-color .7s;
+    cursor: pointer;
+   
+}
+
+li:first-child a {
+    margin-right: -20px;
+}
+
+nav img {
+    display: inline-block;
+    padding: 20px 0;
+    float: left;
+    
+}
+
+nav a:hover {
+color: white;
+}
+
+nav .active{
+    color: black;
+}
+
+.center {
+    text-align: center;
+}
+
+.definitions {
+    font-size: certain;
+    font-weight: 700;
+}
+
+.name {
+    text-decoration: none;
+    color: black;
+    font-size: certain;
+    margin-right: -10px;
+
+}
+
+.name:hover {
+    color: #ff0099;
+}
+
+article p a {
+    text-decoration: none;
+    color:  #333;
+}
+
+article p a:hover{
+    color: #3cb878 ;
+}
